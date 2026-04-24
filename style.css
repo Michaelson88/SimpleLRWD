@@ -68,7 +68,31 @@ ul li {
     font-size: small;
 }
 
+@media only screen and (max-width: 768px) {
+    
+
+}
+
 /* Beggining Main */
+/*Test video selections*/
+
+video {
+    width: 100%;
+    height: fit-content;
+    border: solid rgb(155, 13, 238);
+}
+
+.home-glass-container {
+    width: 49%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 16px;
+    padding: 20px;
+}
 
 .div-container-one {
     width: 100%;
@@ -95,6 +119,26 @@ ul li {
     justify-content: start;
     align-items: center;
     padding: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .div-container {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .home-glass-container {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 300px; 
+    }
+
+    .home-glass-container  {
+        width: fit-content;
+        display: block;
+    }
 }
 
 /*Frosted Glass Attempt*/
@@ -133,14 +177,6 @@ article p {
     justify-content: space-evenly;
 }
 
-/*Test video selections*/
-
-video {
-    width: 100%;
-    height: fit-content;
-    border: solid rgb(155, 13, 238);
-}
-
 .glass-container-bio {
     width: 49%;
     height: auto;
@@ -171,7 +207,7 @@ video {
 
 .bio-image-michael {
     float: left;
-    width: 300px;
+    width: 350px;
     margin: 0px 20px 10px 0;
     display: block;
     margin-bottom: 20px;  
@@ -179,7 +215,7 @@ video {
 
 .bio-image-emily {
     float: left;
-    width: 100px;
+    width: 350px;
     margin: 6px 6px 6px 0px;
     display: block;
     margin-bottom: 20px;
