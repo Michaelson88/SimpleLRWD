@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(213, 207, 207);
+}
+
+body {
+<<<<<<< HEAD
+    background-image: url(images/backaisqsh.jpg);
+=======
+    background-image: url(images/05.png);
+>>>>>>> 8538c7c18a941a96108a432a6bf198154998d5bb
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+    min-height: 100vh; 
+}
+
+/* Beggining Header/Footer */
+
+header {
+    width: 100%;
+    height: 65px;
+  /*position: sticky;*/
+    top: 0;
+    z-index: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+header nav {
+    width: 100%;
+    height: 65px;
+    display: flex;
+}
+
+.head-ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+footer {
+    width: 100%;
+    height:100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.foot-ul {
+    width: 100%;
+    height: 100%;
+
+}
+
+ul li {
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-container {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    padding: 6px;
+    font-size: small;
+}
+
+/* Beggining Main */
+
+.div-container-one {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px;
+}
+
+.div-container-two {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+.div-container-three {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px;
+}
+
+/*Frosted Glass Attempt*/
+
+.glass-container {
+    width: 49%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+article p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.brand-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 76, 76);
+}
+
+.brand-container i {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Test video selections*/
+
+video {
+    width: 100%;
+    height: fit-content;
+    border: solid rgb(155, 13, 238);
+}
+
+.glass-container-bio {
+    width: 49%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+/*Our-Company-Page-Specs*/
+
+.section-glass-container {
+    width: 100%;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 16px;
+    padding: 9px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-image-michael {
+    float: left;
+    width: 300px;
+    margin: 0px 20px 10px 0;
+    display: block;
+    margin-bottom: 20px;  
+}
+
+.bio-image-emily {
+    float: left;
+    width: 100px;
+    margin: 6px 6px 6px 0px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+     .section-glass-container {
+        flex-direction: column;
+    }
+     .bio-image-michael img {
+        width: 200px;
+        border-radius: 35%;
+        margin-top: 12px;
+     }
+}
+
+@media only screen and (max-width: 768px) {
+     .section-glass-container {
+        flex-direction: column;
+    }
+     .bio-image-emily img {
+        width: 200px;
+        border-radius: 35%;
+        margin-top: 12px;
+     }
+}
