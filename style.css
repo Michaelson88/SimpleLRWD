@@ -221,6 +221,30 @@ article p {
 
 /*project page*/
 
+.contact-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex;
+    padding: 4px;
+}
+
+.contact-glass-container {
+    width: 50%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .project-glass-container {
     width: 100%;
     height: auto;
@@ -310,5 +334,4 @@ article p {
         margin-top: 75px;
         height: 10%;
     }
-
 }
