@@ -67,56 +67,6 @@ ul li {
     font-size: small;
 }
 
-/* Beggining Main */
-/*Test video selections*/
-
-video {
-    width: 100%;
-    height: fit-content;
-    border: solid rgb(155, 13, 238);
-}
-
-.home-glass-container {
-    width: 49%;
-    height: auto;
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    border-radius: 16px;
-    padding: 20px;
-}
-
-.div-container-one {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 12px;
-}
-
-@media only screen and (max-width: 768px) {
-
-    .div-container {
-        width: 100%;
-        height: 100%;
-        padding: 20px;
-    }
-
-    .home-glass-container {
-        width: 100%;
-        height: 100%;
-        margin-bottom: 300px; 
-    }
-
-    .home-glass-container  {
-        width: fit-content;
-        display: block;
-    }
-}
-
 /*Frosted Glass Attempt*/
 
 .glass-container {
@@ -270,6 +220,7 @@ article p {
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     border-radius: 16px;
     padding: 20px;
+    margin-bottom: 12px;
 }
 
 .project-container-one {
@@ -348,5 +299,62 @@ article p {
     .foot-ul a {
         margin-top: 75px;
         height: 10%;
+    }
+}
+
+/*Beg of video container*/
+
+video {
+    width: 100%;
+    height: fit-content;
+    border: solid rgb(155, 13, 238);
+}
+
+.project01-glass-container {
+    width: 49%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 14px;
+}
+
+.div-container-one {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 12px;
+}
+/*Test moving video incomplete*/
+.project01-video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#project-container-headline {
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+    .div-container {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .project01-glass-container {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 300px;
+         width: fit-content;
+        display: block; 
     }
 }
