@@ -108,11 +108,67 @@ body {
     position: relative;
     overflow: hidden;
 }
+/* Expert page */
+.expert-main-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
 
-/* End Index Page */
+.expert-container-one {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
 
+.expert-container-one h2 {
+    font-size: larger;
+    color: rgb(237, 104, 231);
+}
+
+.expert-glass-container {
+    width: 100%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 16px;
+    padding: 10px;
+    gap: 12px;
+} 
+
+.expert-glass-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 1%; /* Start off-screen */
+  width: 19%;
+  height: 100%;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(5deg); /* Skew for diagonal shine */
+  transition: left 0.9s ease; /* Slide animation */
+}
+
+.expert-glass-container:hover::before {
+  left: 99%; /* Slide across on hover */
+}
+
+.expert-glass-container:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px rgba(0, 0, 0, 0.3);
+    transition: all 0.9 ease;
+    position: relative;
+    overflow: hidden;
+}
 /*Contact Page*/
-
 .contact-container {
     width: 100%;
     height: auto;
@@ -193,50 +249,6 @@ main {
     margin-top: 44px;
     font-size: smaller;
     text-align: center;
-}
-
-/*Glass shine sparkle*/
-
-.expert-glass-container {
-    width: 45%;
-    height: 300px;
-    background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    border-radius: 16px;
-    padding: 10px;
-    gap: 12px;
-} 
-
-.expert-glass-container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 100%; /* Start off-screen */
-  width: 50%;
-  height: 100%;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0) 0%,
-    rgba(255, 255, 255, 0.3) 50%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  transform: skewX(-25deg); /* Skew for diagonal shine */
-  transition: left 0.5s ease; /* Slide animation */
-}
-
-.expert-glass-container:hover::before {
-  left: 150%; /* Slide across on hover */
-}
-
-.expert-glass-container:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px rgba(0, 0, 0, 0.3);
-    transition: all 0.9 ease;
-    position: relative;
-    overflow: hidden;
 }
 
 .brand-container {
