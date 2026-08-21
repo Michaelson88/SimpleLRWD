@@ -441,8 +441,6 @@ main {
     width: 80%;
     height: auto;
     border-radius: 3px;
-    border: solid 1px rgb(0, 255, 255);
-    box-shadow: 0 0 15px .5px rgb(0, 255, 255);
 }
 
 .team-article {
@@ -485,8 +483,6 @@ main {
     width: 80%;
     height: auto;
     border-radius: 3px;
-    border: 2px solid rgb(230, 50, 134);
-    box-shadow: 0 0 15px 5px rgb(230, 50, 134);
     padding: 2px; 
 }
 
@@ -500,10 +496,6 @@ main {
     font-size: large;
     text-align: center;
     color: rgb(230, 50, 134);
-}
-
-.contact-glass-container {
-    box-shadow:  0 0 15px 0.5px #02d6d69d;
 }
 
 .company-sponsor-desktop {
