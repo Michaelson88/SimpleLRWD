@@ -1,0 +1,6 @@
+
+
+User-agent: *
+Disallow: 
+
+Sitemap: https://lightraywebdevelopment.com/sitemap.xml
