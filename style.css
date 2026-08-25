@@ -82,7 +82,7 @@ body {
     height: auto;
     padding: 10px;
     gap: 9px;
-    background-color: rgba(175, 27, 224, 0.754);;
+    background-color: rgba(175, 27, 224, 0.754);
     border:  .5px solid #ea61fc;
     box-shadow: 0 0 0 .5px #ea61fc;
     border-radius: 0 12px 12px 12px;
@@ -593,6 +593,14 @@ legend {
 
 /* Testing */
 
+h1  {
+    text-align: center;
+    margin: 29px;
+    color: rgb(238, 36, 191);
+    background-color: blue;
+    border-radius: 8px;
+}
+
 .form-container {
     width: 90%;
     height: auto;
@@ -631,4 +639,38 @@ legend {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+/*Q & A*/
+
+.q-container {
+    border-top: dotted white .5px;
+    background-color:  rgba(175, 27, 224, 0.754);
+    padding: 12%;
+}
+
+.q-container h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.question strong {
+    color: black;
+}
+
+.question {
+    color: rgb(251, 251, 251);
+    margin-bottom: 29px;
+    text-align: center;
+}
+
+.answer {
+    color: black;
+    text-align: center;
+    margin-bottom: 29px;
+}
+
+.answer strong {
+    color: black;
 }
