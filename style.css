@@ -74,34 +74,44 @@ body {
     width: 100%;
     height: 30%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 12px;
+    gap: 12px;
 }
 .rates-container {
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 12px;
     gap: 9px;
     background-color: rgba(175, 27, 224, 0.754);
     border:  .5px solid #ea61fc;
     box-shadow: 0 0 0 .5px #ea61fc;
     border-radius: 0 12px 12px 12px;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    
 }
 
 .article-rates-container {
+    width: 100%;
     padding: 12px;
+    gap:12px;
     border: solid .5px white;
     box-shadow: 0 0 0 .5px #ffffff;
     background-color: rgba(157, 142, 142, 0.545);
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
 }
 
 .image-container img {
     width: 30%;
     height: 60%;
+    float: left;
     display: flex;
     justify-content: center;
     border-radius: 19px;
@@ -299,6 +309,16 @@ main {
     flex-grow: 1;
 }
 
+.brand-container {
+    width: 100%;
+    height: 49px;
+    background-color: rgb(76, 76, 76); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
 /*Footer*/
 
 .foot-container {
@@ -331,16 +351,11 @@ main {
     margin-top: 44px;
     font-size: smaller;
     text-align: center;
+    font-size: 9px;
 }
 
-.brand-container {
-    width: 100%;
-    height: 49px;
-    background-color: rgb(76, 76, 76); 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
+.spam-name {
+    color: rgb(247, 48, 214);
 }
 
 /* Mobile */
@@ -450,7 +465,7 @@ main {
 }
 
 .team-article h3 {
-    font-size: large;
+    font-size: 16px;
     color: rgb(0, 255, 255);
 }
 .team-article p {
@@ -622,7 +637,7 @@ h1  {
     align-items: center;
     border: .5px solid #fff;
     border-radius: 8px;
-    background-color: rgb(39, 36, 36);
+    background-color: rgb(76, 76, 76);
     padding: 19px;
     gap: 12px;
 }
